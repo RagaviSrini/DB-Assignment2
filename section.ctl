@@ -1,0 +1,6 @@
+LOAD DATA
+INFILE './DATA/section.csv'
+TRUNCATE INTO TABLE SECTION
+FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'
+TRAILING NULLCOLS
+( Section_identifier, Course_number, Semester, Year DATE 'YYYY', Instructor)

@@ -1,0 +1,6 @@
+LOAD DATA
+INFILE './DATA/course.csv'
+TRUNCATE INTO TABLE COURSE
+FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'
+TRAILING NULLCOLS
+( Course_name, Course_number, Credit_hours, Department)

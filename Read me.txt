@@ -1,0 +1,22 @@
+Database design - Assignment 2
+
+Files present in the submission folder:
+
+university_schema.sql    - file for creating University schema
+student.ctl		 - control file for loading data into STUDENT table
+course.ctl		 - control file for loading data into COURSE table
+section.ctl		 - control file for loading data into SECTION table
+grade_report.ctl	 - control file for loading data into GRADE_REPORT table
+prerequisite.ctl	 - control file for loading data into PREREQUISITE table
+university_loader.sh	 - shell script for loading data into the tables in the schema (uses the control files)
+ojdbc7.jar               - Driver file
+university_program.java  - java source file
+compile_program.sh	 - shell script for compiling the java code
+run_program.sh		 - shell script for running the java program.
+
+All the CSV files are in the folder DATA.
+
+1) Run the university_schema file using sqlplus
+2) Run the university_loader.sh file for loading data. It will ask for Oracle DB login credentials.
+3) Run the compile_program to compile the java code.
+4) Run the run_program.sh file to run the program.
